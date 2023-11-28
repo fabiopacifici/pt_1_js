@@ -70,12 +70,11 @@ console.log(names);
 
 
 for (let i = 0; i < names.length; i++) {
-  const element = names[i]; 
+  const element = names[i];
 
   console.log(element);
 
 }
-
 
 
 for (let i = 0; i < mixed_data.length; i++) {
@@ -94,3 +93,103 @@ for (let index = 0; index < text.length; index++) {
   const character = text[index];
   console.log(character);
 }
+
+
+
+
+/* Arrays Recap */
+
+
+const students = [
+  "Luca", //0 <-----
+  "Marco", //1 <-----
+  "Paolo" //2 <---
+  // 3<---- undefined
+];
+
+// students[0] // Luca
+// lenght = 3
+// index = 2
+
+
+/* for ( counter; condition; increment){
+  // Your code in the block
+}
+ */
+
+
+for (let i = 0; i < students.length; i++) {
+  const student = students[i]; // index = 0 ? Luca
+
+  console.log(student);
+}
+
+
+
+
+const movie = [
+  'Starwars', // <--- 0
+  '2h', // <--- 1
+  [
+    'Yoda', //<-- 0 nested 
+    'Luke' //<-- 1 nested 
+  ], // <--- 2
+];
+
+
+for (let i = 0; i < movie.length; i++) {
+  const movieItem = movie[i];
+  console.log(movieItem);
+
+
+
+
+  // only on position 2
+  /* if(i === 2) {
+
+    for (let index = 0; index < movieItem.length; index++) {
+      const element = movieItem[index];
+      console.log(element);
+      
+    }
+
+  } */
+
+}
+
+
+//0. Starwars
+//1. 2h 
+//2. ['Yoda', 'Luke'] 
+// 0. Yoda
+// 1. Luke
+
+
+
+const movies = [];
+
+console.log(movies);
+
+movies.push('Matrix');
+movies.unshift('Matrix 2');
+movies.push('Matrix 3');
+
+console.log(movies);
+
+const randomNumbers = []
+
+
+for (let i = 0; i < 10; i++) {
+  
+  const randomNumber = Math.random() * 100;
+
+  randomNumbers.push(randomNumber)
+  
+}
+
+console.log(randomNumbers);
+
+
+
+
+
