@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+		integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
+		crossorigin='anonymous' referrerpolicy='no-referrer' />
+	<link rel='stylesheet' href='./assets/css/style.css'>
+
+	<style>
+		.container {
+			max-width: 1000px;
+			width: 80%;
+			margin: auto;
+		}
+
+		.icons {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+
+			.icon {
+				width: calc((100% / 4) - 4rem);
+				aspect-ratio: 1;
+				background-color: rgba(128, 128, 128, 0.109);
+				box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.421);
+				padding: 1rem;
+				border-radius: 0.5rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+	<header id="site_header">
+		<div class="container">
+			<h2>Icons</h2>
+			<select name="types_filter" id="types_filter">
+				<option value="all" selected>Select All </option>
+			</select>
+		</div>
+	</header>
+	<main id="site_main">
+		
+		<div class="container">
+			<div class="icons">
+				<!-- Add icons via js here -->
+			</div>
+		</div>
+
+
+
+	</main>
+	<footer id="site_footer">
+		footer
+	</footer>
+
+
+
+	<script src='./assets/js/script.js'></script>
+</body>
+
+</html>

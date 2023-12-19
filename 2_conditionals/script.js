@@ -83,3 +83,27 @@ if (username.length > 4) {
   alert('👎 Validation failed')
 
 }
+
+
+
+/* 
+
+if(condition) {
+  // code here
+} else {
+  // code here
+}
+
+// ternary operator
+if -> ?
+else -> :
+
+x > 10 ? 'bg-primary' : 'bg-danger'
+
+
+*/
+
+let numb = 7;
+`<div class="${numb > 10 ? 'bg-primary' : 'bg-danger' }">Example</div>`
+
+
