@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+		integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
+		crossorigin='anonymous' referrerpolicy='no-referrer' />
+
+</head>
+
+<body>
+
+	<h1>Shopping list</h1>
+
+	<div class="filters">
+		<select name="categories" id="categories">
+			<option value="all">All</option>
+			<option value="bevande">Bevande</option>
+			<option value="dolci">Dolci</option>
+			<option value="colazione">Colazione</option>
+			<option value="verdure">Verdure</option>
+		</select>
+
+		<input type="checkbox" name="checked" id="checked">
+		<label for="checked">Checked</label>
+	</div>
+
+
+	<ul class="list">
+		<li class="checked">
+			<i class="fas fa-check-square"></i>
+			Latte (bevande, colazione)
+		</li>
+		<li class="">
+			<i class="fas fa-square"></i>
+			Biscotti (dolci)
+		</li>
+		<li class="">
+			<i class="fas fa-square"></i>
+			Pomodori (verdure)
+		</li>
+	</ul>
+
+
+
+
+
+	<script src='./assets/js/script.js'></script>
+</body>
+
+</html>
