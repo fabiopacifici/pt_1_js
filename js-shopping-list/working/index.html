@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lista della spesa</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lista della spesa</h1>
+    <select id="types-filter" name="types">
+      <option value="" selected>Tutti</option>
+      <option value="bevande">bevande</option>
+      <option value="colazione">colazione</option>
+      <option value="dolci">dolci</option>
+      <option value="verdure">verdure</option>
+    </select>
+
+    <label for="checked-filter">
+      <input id="checked-filter" type="checkbox"> Checked
+    </label>
+
+    <ul id="shopping-list"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
